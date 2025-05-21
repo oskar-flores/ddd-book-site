@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Serverless Domain Driven Design for the Busy Developer - A concise guide to building scalable serverless applications using DDD principles">
-    <title>Serverless Domain Driven Design for the Busy Developer | LeanPub</title>
+    <meta name="description" content="Serverless Domain Driven Design for the Busy Developer - A concise guide to building serverless applications using DDD principles">
+    <title>Serverless Domain Driven Design for the Busy Developer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,6 +18,7 @@
         }
         body {
             font-family: 'Space Grotesk', sans-serif;
+            line-height: 1.6;
         }
         .gradient-bg {
             background: linear-gradient(135deg, var(--light-gray) 0%, #fff 100%);
@@ -36,8 +37,8 @@
             box-shadow: 0 8px 24px rgba(26,53,94,0.08);
         }
         .author-photo {
-            width: 60px;
-            height: 60px;
+            width: 70px;
+            height: 70px;
             border-radius: 50%;
             border: 3px solid white;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -81,21 +82,21 @@
         <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
-                    <div class="flex items-center gap-4 mb-6">
-                        <img src="author-photo.jpg" alt="Oskar Flores" class="author-photo">
+                    <div class="flex items-center gap-4 mb-8">
+                        <img src="me.jpg" alt="Oskar Flores" class="author-photo">
                         <div>
-                            <p class="text-sm text-gray-600">Hey there! I'm Oskar</p>
-                            <p class="text-sm text-gray-600">Just a developer who loves sharing knowledge</p>
+                            <p class="text-base font-medium text-gray-700">Hey there! I'm Oskar</p>
+                            <p class="text-sm text-gray-600">Developer & Author</p>
                         </div>
                     </div>
-                    <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+                    <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 leading-tight">
                         <span class="darkblue-text">Serverless</span> <span class="orange-text">Domain Driven Design</span><br>for the Busy Developer
                     </h1>
-                    <p class="text-xl text-gray-600 mb-6">
-                        I wrote this book because I was tired of seeing developers struggle to combine DDD and Serverless. It's a short, 100-page guide that gets straight to the point—no fluff, just what you need to know.
+                    <p class="text-xl text-gray-700 mb-6">
+                        This isn't a 500-page deep dive book. It's around 100 pages for a reason: so you can read it over the weekend and start applying it Monday morning.
                     </p>
-                    <p class="text-lg text-gray-600 mb-8">
-                        I've packed these pages with the practical insights and shortcuts I wish I'd known when I started out. It's direct, example-driven, and designed to help you get results fast—without wasting your time.
+                    <p class="text-lg text-gray-700 mb-8">
+                        Whether you're new to Domain-Driven Design or just trying to make it fit into your AWS serverless world, this book saves you time, stress, and a few headaches.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4">
                         <a href="#purchase" class="btn-primary px-8 py-3 rounded-full text-lg font-semibold transition-colors text-center">
@@ -117,17 +118,25 @@
         <!-- Features Section -->
         <section id="features" class="py-16">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">What You'll Get</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <h2 class="text-3xl font-bold text-center text-gray-900 mb-8">What You'll Get</h2>
+                <p class="text-xl text-gray-700 text-center mb-12 max-w-3xl mx-auto">
+                    A focused guide that cuts through the complexity and gets you building better serverless applications with DDD.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="feature-card p-6 rounded-2xl shadow-lg">
                         <div class="text-4xl mb-4 orange-text">🎯</div>
-                        <h3 class="text-xl font-semibold mb-3 darkblue-text">Clear DDD Principles</h3>
-                        <p class="text-gray-600">Learn how to apply DDD in serverless architectures without getting lost in theory. I'll show you exactly what you need to know.</p>
+                        <h3 class="text-xl font-semibold mb-3 darkblue-text">Core DDD Concepts</h3>
+                        <p class="text-base text-gray-600">Learn the essential DDD principles and how they apply to serverless architectures.</p>
+                    </div>
+                    <div class="feature-card p-6 rounded-2xl shadow-lg">
+                        <div class="text-4xl mb-4 orange-text">⚡</div>
+                        <h3 class="text-xl font-semibold mb-3 darkblue-text">TypeScript & AWS</h3>
+                        <p class="text-base text-gray-600">Real-world examples using AWS Lambda and CDK. See how to implement DDD patterns in your serverless applications.</p>
                     </div>
                     <div class="feature-card p-6 rounded-2xl shadow-lg">
                         <div class="text-4xl mb-4 orange-text">💡</div>
-                        <h3 class="text-xl font-semibold mb-3 darkblue-text">Hands-on Examples</h3>
-                        <p class="text-gray-600">Follow along with practical examples and code snippets that make the concepts click. No endless case studies—just focused, actionable guidance.</p>
+                        <h3 class="text-xl font-semibold mb-3 darkblue-text">Production Ready</h3>
+                        <p class="text-base text-gray-600">Practical lessons from real-world experience. Learn from someone who's made it work in production environments.</p>
                     </div>
                 </div>
             </div>
@@ -137,10 +146,10 @@
         <section id="purchase" class="py-16">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <h2 class="text-3xl font-bold text-gray-900 mb-8">Want to Make Serverless DDD Click?</h2>
-                <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-                    I've made this book short and sweet because I know you're busy. Get straight to the good stuff without wading through endless theory.
+                <p class="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
+                    I've made this book short and sweet because I know you're busy. Get straight to the good stuff!
                 </p>
-                <a href="https://leanpub.com/serverless-ddd" target="_blank" rel="noopener noreferrer" class="btn-primary px-8 py-4 rounded-full text-lg font-semibold transition-colors inline-block">
+                <a href="https://leanpub.com/serverlessdddd" target="_blank" rel="noopener noreferrer" class="btn-primary px-8 py-4 rounded-full text-lg font-semibold transition-colors inline-block">
                     Get the Book on LeanPub
                 </a>
             </div>
@@ -149,8 +158,8 @@
 
     <footer class="bg-white/80 backdrop-blur-sm py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-600">
-            <p>Made with ❤️ for developers who prefer practical learning</p>
-            <p class="mt-2">&copy; 2024 Serverless DDD. All rights reserved.</p>
+            <p class="text-base">Made with ❤️ for developers who prefer practical learning</p>
+            <p class="mt-2 text-sm">&copy; 2024 Serverless DDD. All rights reserved.</p>
         </div>
     </footer>
 </body>
